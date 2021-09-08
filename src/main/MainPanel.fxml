@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="900.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <padding>
+      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+   </padding>
+   <center>
+      <AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" BorderPane.alignment="CENTER">
+         <children>
+            <GridPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" percentWidth="40.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="1.7976931348623157E308" percentWidth="55.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <VBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308">
+                     <children>
+                        <VBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308">
+                           <children>
+                              <Label maxWidth="1.7976931348623157E308" text="COM Ports">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <GridPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308">
+                                <columnConstraints>
+                                  <ColumnConstraints hgrow="SOMETIMES" percentWidth="20.0" />
+                                  <ColumnConstraints hgrow="SOMETIMES" percentWidth="80.0" />
+                                </columnConstraints>
+                                <rowConstraints>
+                                  <RowConstraints vgrow="ALWAYS" />
+                                  <RowConstraints vgrow="SOMETIMES" />
+                                  <RowConstraints vgrow="SOMETIMES" />
+                                    <RowConstraints vgrow="SOMETIMES" />
+                                    <RowConstraints vgrow="SOMETIMES" />
+                                    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                </rowConstraints>
+                                 <children>
+                                    <AnchorPane GridPane.rowIndex="3">
+                                       <children>
+                                          <AnchorPane layoutX="56.0" layoutY="2.0" maxWidth="1.7976931348623157E308" />
+                                          <Label layoutY="6.0" text="Data Bits" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="5.0" />
+                                       </children>
+                                    </AnchorPane>
+                                    <AnchorPane maxWidth="1.7976931348623157E308">
+                                       <children>
+                                          <Label text="COM" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="5.0" />
+                                       </children>
+                                    </AnchorPane>
+                                    <AnchorPane layoutX="10.0" layoutY="10.0" maxWidth="1.7976931348623157E308" GridPane.rowIndex="2">
+                                       <children>
+                                          <Label layoutX="-1.0" text="Baud Rate" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="5.0" />
+                                       </children>
+                                    </AnchorPane>
+                                    <AnchorPane layoutX="10.0" layoutY="65.0" GridPane.rowIndex="4">
+                                       <children>
+                                          <AnchorPane layoutX="56.0" layoutY="2.0" maxWidth="1.7976931348623157E308" />
+                                          <Label layoutY="6.0" text="Stop bits" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="5.0" />
+                                       </children>
+                                    </AnchorPane>
+                                    <AnchorPane layoutX="10.0" layoutY="75.0" GridPane.rowIndex="5">
+                                       <children>
+                                          <AnchorPane layoutX="56.0" layoutY="2.0" maxWidth="1.7976931348623157E308" />
+                                          <Label layoutY="6.0" text="Parity" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="5.0" />
+                                       </children>
+                                    </AnchorPane>
+                                    <AnchorPane GridPane.columnIndex="1">
+                                       <children>
+                                          <ComboBox prefWidth="150.0" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0" />
+                                       </children>
+                                    </AnchorPane>
+                                    <AnchorPane layoutX="205.0" layoutY="10.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                                       <children>
+                                          <TextField layoutX="-17.0" layoutY="-12.0" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0" />
+                                       </children>
+                                    </AnchorPane>
+                                    <AnchorPane layoutX="205.0" layoutY="45.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                                       <children>
+                                          <TextField layoutX="-17.0" layoutY="-12.0" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0" />
+                                       </children>
+                                    </AnchorPane>
+                                    <AnchorPane layoutX="205.0" layoutY="80.0" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                                       <children>
+                                          <TextField layoutX="-17.0" layoutY="-12.0" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0" />
+                                       </children>
+                                    </AnchorPane>
+                                    <AnchorPane layoutX="205.0" layoutY="115.0" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                                       <children>
+                                          <TextField layoutX="-17.0" layoutY="-12.0" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0" />
+                                       </children>
+                                    </AnchorPane>
+                                 </children>
+                              </GridPane>
+                              <Button maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="OPEN">
+                                 <padding>
+                                    <Insets bottom="10.0" top="10.0" />
+                                 </padding>
+                                 <VBox.margin>
+                                    <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                 </VBox.margin>
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </VBox>
+                        <AnchorPane maxWidth="1.7976931348623157E308" style="-fx-background-color: #FFFFFF;">
+                           <children>
+                              <GridPane AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="10.0">
+                                <columnConstraints>
+                                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                </columnConstraints>
+                                <rowConstraints>
+                                  <RowConstraints vgrow="NEVER" />
+                                  <RowConstraints vgrow="SOMETIMES" />
+                                    <RowConstraints vgrow="SOMETIMES" />
+                                    <RowConstraints vgrow="SOMETIMES" />
+                                    <RowConstraints vgrow="SOMETIMES" />
+                                    <RowConstraints vgrow="SOMETIMES" />
+                                </rowConstraints>
+                                 <children>
+                                    <AnchorPane>
+                                       <children>
+                                          <Button layoutX="28.0" layoutY="-15.0" maxHeight="-Infinity" mnemonicParsing="false" text="Reader ID" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0">
+                                             <padding>
+                                                <Insets bottom="10.0" top="10.0" />
+                                             </padding>
+                                             <font>
+                                                <Font size="18.0" />
+                                             </font>
+                                          </Button>
+                                       </children>
+                                    </AnchorPane>
+                                    <AnchorPane layoutX="10.0" layoutY="10.0" GridPane.rowIndex="1">
+                                       <children>
+                                          <Button layoutX="28.0" layoutY="-15.0" maxHeight="-Infinity" mnemonicParsing="false" text="Total Acted" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0">
+                                             <padding>
+                                                <Insets bottom="10.0" top="10.0" />
+                                             </padding>
+                                             <font>
+                                                <Font size="18.0" />
+                                             </font>
+                                          </Button>
+                                       </children>
+                                    </AnchorPane>
+                                    <AnchorPane layoutX="10.0" layoutY="67.0" GridPane.rowIndex="2">
+                                       <children>
+                                          <Button layoutX="28.0" layoutY="-15.0" maxHeight="-Infinity" mnemonicParsing="false" text="Today Acted" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0">
+                                             <padding>
+                                                <Insets bottom="10.0" top="10.0" />
+                                             </padding>
+                                             <font>
+                                                <Font size="18.0" />
+                                             </font>
+                                          </Button>
+                                       </children>
+                                    </AnchorPane>
+                                    <AnchorPane layoutX="10.0" layoutY="124.0" GridPane.rowIndex="3">
+                                       <children>
+                                          <Button layoutX="28.0" layoutY="-15.0" maxHeight="-Infinity" mnemonicParsing="false" text="Lamp info (Today)" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0">
+                                             <padding>
+                                                <Insets bottom="10.0" top="10.0" />
+                                             </padding>
+                                             <font>
+                                                <Font size="18.0" />
+                                             </font>
+                                          </Button>
+                                       </children>
+                                    </AnchorPane>
+                                    <AnchorPane layoutX="10.0" layoutY="181.0" GridPane.rowIndex="4">
+                                       <children>
+                                          <Button layoutX="28.0" layoutY="-15.0" maxHeight="-Infinity" mnemonicParsing="false" text="Lamp info (Total)" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0">
+                                             <padding>
+                                                <Insets bottom="10.0" top="10.0" />
+                                             </padding>
+                                             <font>
+                                                <Font size="18.0" />
+                                             </font>
+                                          </Button>
+                                       </children>
+                                    </AnchorPane>
+                                    <AnchorPane layoutX="10.0" layoutY="225.0" GridPane.rowIndex="5">
+                                       <children>
+                                          <Button layoutX="28.0" layoutY="-15.0" maxHeight="-Infinity" mnemonicParsing="false" text="2B Activated" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0">
+                                             <padding>
+                                                <Insets bottom="10.0" top="10.0" />
+                                             </padding>
+                                             <font>
+                                                <Font size="18.0" />
+                                             </font>
+                                          </Button>
+                                       </children>
+                                    </AnchorPane>
+                                    <AnchorPane GridPane.columnIndex="1">
+                                       <children>
+                                          <TextField layoutX="-28.0" layoutY="16.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" />
+                                       </children>
+                                    </AnchorPane>
+                                    <AnchorPane layoutX="145.0" layoutY="10.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                                       <children>
+                                          <TextField layoutX="-28.0" layoutY="16.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" />
+                                       </children>
+                                    </AnchorPane>
+                                    <AnchorPane layoutX="145.0" layoutY="67.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                                       <children>
+                                          <TextField layoutX="-28.0" layoutY="16.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" />
+                                       </children>
+                                    </AnchorPane>
+                                    <AnchorPane layoutX="145.0" layoutY="124.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                                       <children>
+                                          <TextField layoutX="-28.0" layoutY="16.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" />
+                                       </children>
+                                    </AnchorPane>
+                                    <AnchorPane layoutX="145.0" layoutY="181.0" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                                       <children>
+                                          <TextField layoutX="-28.0" layoutY="16.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" />
+                                       </children>
+                                    </AnchorPane>
+                                    <AnchorPane layoutX="145.0" layoutY="238.0" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                                       <children>
+                                          <TextField layoutX="-28.0" layoutY="16.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" />
+                                       </children>
+                                    </AnchorPane>
+                                 </children>
+                              </GridPane>
+                           </children>
+                        </AnchorPane>
+                        <TextField maxWidth="1.7976931348623157E308">
+                           <VBox.margin>
+                              <Insets left="10.0" right="10.0" />
+                           </VBox.margin>
+                        </TextField>
+                        <GridPane>
+                          <columnConstraints>
+                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                          </columnConstraints>
+                          <rowConstraints>
+                            <RowConstraints vgrow="SOMETIMES" />
+                          </rowConstraints>
+                           <children>
+                              <AnchorPane maxWidth="1.7976931348623157E308">
+                                 <children>
+                                    <Button layoutX="45.0" layoutY="2.0" mnemonicParsing="false" text="Reader Mode" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="5.0">
+                                       <padding>
+                                          <Insets bottom="10.0" top="10.0" />
+                                       </padding>
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                    </Button>
+                                 </children>
+                              </AnchorPane>
+                              <AnchorPane layoutX="10.0" layoutY="10.0" maxWidth="1.7976931348623157E308" GridPane.columnIndex="1">
+                                 <children>
+                                    <Button layoutX="45.0" layoutY="2.0" mnemonicParsing="false" text="Activation Mode" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0">
+                                       <padding>
+                                          <Insets bottom="10.0" top="10.0" />
+                                       </padding>
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                    </Button>
+                                 </children>
+                              </AnchorPane>
+                           </children>
+                        </GridPane>
+                     </children>
+                  </VBox>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1">
+                     <children>
+                        <Label layoutX="64.0" layoutY="792.0" text="Activation status" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="10.0" />
+                        <AnchorPane layoutX="-2.0" layoutY="78.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="5.0">
+                           <children>
+                              <Label layoutX="70.0" layoutY="48.0" text="Lamp id" />
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </GridPane>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
